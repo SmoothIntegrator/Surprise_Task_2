@@ -16,12 +16,12 @@ The player shoots a kinetic projectile. When the projectile collides with a vali
 ## 🛠️ Credits & Contributions (Programmer Track)
 As per the task allowances for the programming domain, this prototype focuses entirely on clean codebase architecture and mechanic implementation over visual polish. 
 
-**What I :**
+**What I created:**
 * `PlayerController.cs`: Handles WASD movement.
 * `SwapBullet.cs`: Handles kinematic projectile movement and the spatial swapping logic via `OnTriggerEnter2D`.
 * **Scene Architecture:** Created the custom tag database (`Swappable`), set up the Prefabs, and configured the Kinematic Rigidbody triggers to ensure bug-free teleportation without clipping.
 
 **External Assets & Resources:**
-* **AI Assistance:** Gemini AI was utilized for helpping me write majority of the the C# swapping code. 
+* **AI Assistance:** Gemini AI was utilized for helping me write majority of the the C# swapping code. 
 * **Visuals:** No third-party or external art assets were used. All visuals (Player, Projectile, Target, Environment) are standard Unity Default 2D Primitives.
 * **Audio:** No external audio was used.
